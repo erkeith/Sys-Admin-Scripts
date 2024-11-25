@@ -18,17 +18,17 @@ This PowerShell script performs various maintenance tasks on a remote computer, 
 ### Usage Examples
 #### Example 1: Check for Active Users and Free Space
 ```powershell
-.\MaintenanceScript.ps1 -ComputerName "Server01" -ActiveUsers -CheckFreeSpace
+.\RemoteSystemChecker.ps1 -ComputerName "Server01" -ActiveUsers -CheckFreeSpace
 ```
 #### Example 2: Perform Initial Checks and Check for Updates
 ```powershell
-.\MaintenanceScript.ps1 -ComputerName "Server01" -InitialChecks -CheckUpdates
+.\RemoteSystemChecker.ps1 -ComputerName "Server01" -InitialChecks -CheckUpdates
 ```
 #### Example 3: Check if a Specific Process is Running
 ```powershell
-.\MaintenanceScript.ps1 -ComputerName "Server01" -CheckProcess "notepad"
+.\RemoteSystemChecker.ps1 -ComputerName "Server01" -CheckProcess "notepad"
 ```
 #### Example 4: Log Out a User
 ```powershell
-.\MaintenanceScript.ps1 -ComputerName "Server01" -LogoutUser "JohnDoe"
+.\RemoteSystemChecker.ps1 -ComputerName "Server01" -LogoutUser "JohnDoe"
 ```
